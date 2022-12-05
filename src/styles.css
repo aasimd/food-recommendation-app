@@ -1,0 +1,24 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@600&display=swap");
+
+li {
+  display: list-item;
+  text-align: left;
+  margin: auto;
+  max-width: 400px;
+}
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0px;
+}
+body {
+  background-color: #fef2f2;
+}
