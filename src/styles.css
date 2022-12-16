@@ -3,22 +3,59 @@
   text-align: center;
 }
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,400;0,700;1,200;1,700&display=swap");
+/*font-family: 'Titillium Web', sans-serif;*/
 
 li {
   display: list-item;
   text-align: left;
-  margin: auto;
-  max-width: 400px;
 }
 ul {
   display: block;
   list-style-type: disc;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   padding-inline-start: 0px;
 }
 body {
-  background-color: #fef2f2;
+  color: honeydew;
+  margin: 0px;
+}
+
+button {
+  background-color: black;
+  font-size: 1.2rem;
+  color: white;
+  border: #fca3a0 1px solid;
+  border-radius: 0.6rem;
+  box-shadow: white;
+  font-family: "Titillium Web", sans-serif;
+  margin-left: 0.6rem;
+}
+.dishName {
+  font-family: "Titillium Web", sans-serif;
+}
+h4 {
+  display: block;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+ul {
+  display: block;
+  list-style-type: disc;
+  padding-block-start: 0em;
+  padding-block-end: 2em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0px;
+}
+:-webkit-any(article, aside, nav, section) h1 {
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0em;
 }
